@@ -161,4 +161,9 @@ footer{
     }
 }
 
+@media screen and (max-width: 479px) {
+    .home-about-content .button-round {
+        margin-left: 0;
+    }
+}
 
