@@ -1,0 +1,164 @@
+
+body p{
+    font-weight: 500;
+}
+.header_top{
+    background: #002856;
+}
+.header_main{
+    background: #fff;
+}
+.header_main .main-navigation ul > li > a {
+    color: #000;
+}
+.site_logo img{
+    height: 80px;
+    padding: 5px 0;
+}
+
+.topbar_btn{
+    display: none;
+}
+
+.slicknav_btn .slicknav_icon span:first-child:before, .slicknav_btn .slicknav_icon span:first-child:after {
+    background-color: #000;
+}
+.slicknav_btn .slicknav_icon span {
+    background-color: #000;
+}
+.mobile-menu-container .slicknav_menu .slicknav_menutxt {
+    color: #000;
+}
+.site-header-transparent .main-navigation ul > .banner-button > a {
+    color: #ffffff!important;
+    padding: 10px 20px!important;
+}
+.site-header-transparent .main-navigation ul > .banner-button > a:hover {
+    color: #ffffff!important;
+    padding: 10px 20px;
+}
+.site-header-transparent .main-navigation ul > .banner-button{
+    margin-right: -20px;
+}
+
+.board_menmbers img{
+    border: 2px solid #ccc;
+}
+.board_menmbers .team-content{
+    border: 2px solid #ccc;
+}
+.site-header-transparent .main-navigation ul > li > a {
+    text-transform: capitalize;
+}
+
+ .header_main.sticky {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #fff; /* darker when sticky (optional) */
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+      z-index: 1000;
+}
+.footer_into_text p{
+    color: #fff;
+}
+.wdfoot ul li a, .wdfoot ul li{
+    font-weight: 600;
+}
+.social_links ul li {
+    background: #fff!important;
+    padding: 10px;
+    height: 32px;
+    width: 32px;
+    display: inline-flex!important;
+    flex-direction: row!important;
+    justify-content: center!important;
+    align-items: center!important;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.social_links ul li a i{
+    font-size: 20px;
+    margin-left: 8px;
+    margin-top: 3px;
+}
+footer{
+    background: #000!important;
+}
+.footer_bottom{
+    background: #222!important;
+}
+
+
+@media (max-width: 991px) {
+   .topbar_btn{
+    display: block;
+   }
+   .topbar_btn a{
+    padding: 8px 20px;
+    margin-top: 5px;
+   }
+   .main-navigation{
+    margin-right: 10px;
+   }
+   .header_main{
+    padding: 0;
+   }
+  .slicknav_menu .slicknav_nav ul {
+    position: absolute;
+    background: #fff;
+    right: 20px;
+    width: 250px;
+    height: auto!important;
+    padding: 40px 0;
+ }
+ .site-header-transparent .main-navigation ul ul {
+    background: #ffffff;
+    border-top: 4px solid #F15B43;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+    position: relative!important;
+    top: 100%;
+    width: 100%;
+    z-index: 99;
+    display: none;
+    text-align: left;
+    -webkit-animation: slide-up 0.3s ease-out;
+    -moz-animation: slide-up 0.3s ease-out;
+    -ms-animation: slide-up 0.3s ease-out;
+    -o-animation: slide-up 0.3s ease-out;
+    animation: slide-up 0.3s ease-out;
+}
+ .site-header-transparent .main-navigation ul > .banner-button > a {
+    color: #444!important;
+    margin-left: 0px!important;
+    background: #fff!important;
+    padding: 10px 20px!important;
+}
+.current-menu-item li a{
+    color: #444!important;
+    margin-left: 10px!important;
+}
+.site-header-transparent .main-navigation ul > li > a {
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px 0;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-left: 20px;
+    position: relative;
+    text-transform: capitalize;
+    color: #444!important;
+}
+}
+
+@media screen and (max-width: 575px) {
+    .banner-content .banner-button a {
+        max-width: 140px;
+        margin-top: -20px;
+    }
+}
+
+
