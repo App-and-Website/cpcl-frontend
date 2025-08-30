@@ -194,7 +194,18 @@ footer{
     font-weight: 700;
     text-decoration: underline;
 }
-
+.event-item:not(.event-item-bg) {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+.event-item:not(.event-item-bg) .event-date {
+    border-color: #F15B43;
+}
+.event-item:not(.event-item-bg) .event-date h4{
+    color: #F15B43;
+}
+.event-item:not(.event-item-bg) .event-date h5{
+    color: #F15B43;
+}
 
 @media (max-width: 991px) {
    .topbar_btn{
