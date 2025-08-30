@@ -207,6 +207,13 @@ footer{
     color: #F15B43;
 }
 
+.sec_pdt{
+   margin-top: 160px;
+}
+.blogh1{
+    font-size: 3rem;
+}
+
 @media (max-width: 991px) {
    .topbar_btn{
     display: block;
