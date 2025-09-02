@@ -214,6 +214,126 @@ footer{
     font-size: 3rem;
 }
 
+
+.schedule-table{
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid #000;
+      font-size: 14px;
+      table-layout: fixed;
+    }
+
+    .schedule-table th,
+    .schedule-table td{
+      padding: 10px 8px;
+      border: 1px solid #000;
+      text-align: left;
+      vertical-align: middle;
+      word-wrap: break-word;
+      font-size: 16px;
+      color: #333;
+      font-weight: 500;
+    }
+
+    /* Header */
+    .schedule-table thead th{
+      background: #fed964; /* yellow header */
+      font-weight: 700;
+    }
+
+    /* Row backgrounds */
+    .schedule-table tbody .lightblue{
+      background: #d6eaf8; /* light blue */
+    }
+    .schedule-table tbody tr{
+      background: #f6d9c8; /* light peach */
+    }
+
+    /* Last row (Annual Feast) */
+    .schedule-table tbody tr:last-child{
+      background: #8faad7; /* darker blue */
+      color: #fff;
+    }
+    .schedule-table tbody tr:last-child td{
+      font-weight: 600;
+    }
+
+    /* First column bold */
+    .schedule-table tbody td:first-child{
+      font-weight: 600;
+    }
+
+    /* Responsive: stack rows on small screens */
+    @media (max-width: 750px){
+      .schedule-table, .schedule-table thead, .schedule-table tbody, .schedule-table th, .schedule-table td, .schedule-table tr {
+        display: block;
+        width: 100%;
+      }
+
+      .schedule-table thead { display: none; }
+
+      .schedule-table tr {
+        margin-bottom: 12px;
+        border-radius: 6px;
+        overflow: hidden;
+        border: 1px solid #ccc;
+      }
+
+      .schedule-table td {
+        padding: 10px 12px;
+        border: none;
+        position: relative;
+      }
+
+      .schedule-table td:before {
+        content: attr(data-label);
+        position: absolute;
+        left: 12px;
+        top: 10px;
+        font-weight: 700;
+        display: block;
+      }
+
+      .schedule-table td { padding-top: 28px; }
+    }
+
+    
+
+    .board-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* centers cards in the row */
+      gap: 20px; /* optional: spacing between cards */
+    }
+
+    .board-container .card {
+      width: 260px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .board-container .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    }
+
+    .board-container .role {
+      font-size: 14px;
+      font-weight: bold;
+      color: #0077b6;
+      margin-bottom: 6px;
+    }
+
+    .board-container .name {
+      font-size: 16px;
+      font-weight: 600;
+      color: #111;
+    }
+
+
 @media (max-width: 991px) {
    .topbar_btn{
     display: block;
